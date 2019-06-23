@@ -19,5 +19,14 @@
   "keywords": [
     "node"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urim32/react-exercise.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/urim32/react-exercise/issues"
+  },
+  "homepage": "https://github.com/urim32/react-exercise#readme"
 }
