@@ -2,8 +2,10 @@ class Box1 extends React.Component {
     render() {
         return (
             <div>
-                <div className="box1"></div>
-                <input type="checkbox" />
+                <div className="box1">
+                    <Box2 />
+                </div>
+
             </div>
         );
     }
@@ -13,7 +15,7 @@ class Box2 extends React.Component {
         return (
             <div>
                 <div className="box2"></div>
-                <input type="checkbox" />
+                <Box3></Box3>
             </div>
         );
     }
@@ -23,7 +25,7 @@ class Box3 extends React.Component {
         return (
             <div>
                 <div className="box3"></div>
-                <input type="checkbox" />
+                <Box4></Box4>
             </div>
         );
     }
@@ -33,15 +35,13 @@ class Box4 extends React.Component {
         return (
             <div>
                 <div className="box4"></div>
-                <input type="checkbox" />
+
             </div>
         );
     }
 }
 
 ReactDOM.render(
-    <div>
-        <Box1 /><Box2 /><Box3 /><Box4 />
-    </div>,
+    <Box1 />,
     document.getElementById("root")
 );
