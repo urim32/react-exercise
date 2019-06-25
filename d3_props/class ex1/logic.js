@@ -5,24 +5,35 @@ class Title extends React.Component {
 
     render() {
 
-        return (
-            <h1 style={{ fontFamily: this.props.fonts }} >{this.props.text}</h1>
+        return ( <
+            h1 style = {
+                {
+                    fontFamily: this.props.fonts
+                }
+            } > {
+                this.props.text
+            } < /h1>
         );
     }
 }
 class App extends React.Component {
     render() {
 
-        return (
-            <div>
-                <Title fonts="cursive" text="nla bla bab" />
-                <Title fonts="Ariel" text="hello world" />
-            </div>
+        return ( <
+            div >
+            <
+            Title fonts = "cursive"
+            text = "nla bla bab" / >
+            <
+            Title fonts = "Ariel"
+            text = "hello world" / >
+            <
+            /div>
         );
     }
 }
 
-ReactDOM.render(
-    <App />,
+ReactDOM.render( <
+    App / > ,
     document.getElementById("root")
 );
