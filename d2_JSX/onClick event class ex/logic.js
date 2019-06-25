@@ -1,6 +1,7 @@
 class Laser extends React.Component {
     activateLasers() {
-        document.getElementById("greet").innerText = "Hello World";
+        // document.getElementById("greet").innerText = "Hello World";
+        document.getElementById("greet").style.backgroundColor = "blue";
     }
     render() {
 

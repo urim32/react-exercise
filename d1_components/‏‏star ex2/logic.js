@@ -17,7 +17,7 @@ class Navbar extends React.Component {
         return (
             <div>
                 <div className="navbar">
-                    <div class="leftNav">
+                    <div className="leftNav">
                         <span>SERVICES</span>
                         <span>WORK</span>
                         <span>THE TEAM</span>
