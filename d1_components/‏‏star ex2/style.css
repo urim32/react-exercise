@@ -1,60 +1,64 @@
-.mainSection {
-    background-color: rgb(190, 72, 91);
-    color: #fff;
+body {
+    background: salmon;
+    margin: 0;
 }
 
-.page .navbar {
+.navbar {
+    height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: auto 0;
+    background-color: #fff;
 }
 
 .navbar span {
-    margin: 0 20px;
+    padding: 10px;
+    font-size: 13px
+}
+
+.navbar div {
+    position: absolute;
+    right: 30px;
+    display: inline-block;
+    background: url("https://png.pngtree.com/element_origin_min_pic/17/09/19/86985f3cbfd0c2f42a83895cea81841d.jpg")no-repeat center center/cover;
+    width: 50px;
+    height: 50px;
 }
 
 .navbar img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-
+    width: 60px;
+    position: absolute;
+    right: 30px;
 }
 
-.firstSection {
-    margin: 50px 0;
-}
-
-.firstSection h1,
-.firstSection p {
+.title {
+    color: #fff;
     text-align: center;
-    padding: 10px;
-
 }
 
-.secondSection {
+.title p {
+    max-width: 660px;
+    margin: auto;
+    padding: 50px;
+    padding-top: 30px
+}
+
+.title h1 {
+    padding-top: 20px;
+}
+
+#services {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.secondSection div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-
-
-}
-
-.secondSection div p {
-    margin: 5px 0;
-}
-
-
-.secondSection img {
+.icon-wrapper img {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(38, 38, 80);
     border-radius: 50%;
-    width: 30%;
-    margin: 20px auto;
-
+    padding: 10px;
+    margin: auto 30px;
 }
