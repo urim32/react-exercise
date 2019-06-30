@@ -1,0 +1,22 @@
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+button {
+    background-color: rgb(230, 69, 149);
+    margin: 0 3px;
+    padding: 15px 30px;
+}
+
+h1,
+p {
+    color: rgb(55, 55, 160);
+}
