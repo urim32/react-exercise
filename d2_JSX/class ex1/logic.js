@@ -8,9 +8,9 @@ class Factorial extends React.Component {
         return result;
     }
     render() {
-        let factorial = this.clac(5);
+        let factorial = this.clac(6);
         return (
-            <div><span>the factorial of 5 is: </span>{factorial}</div>
+            <div><span>the factorial of 6 is: </span>{factorial}</div>
         );
     }
 }
