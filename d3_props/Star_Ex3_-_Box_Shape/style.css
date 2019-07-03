@@ -1,0 +1,10 @@
+#root div div {
+    background-color: blueviolet;
+
+    margin: 5px;
+}
+
+.next-to {
+    display: inline-block;
+
+}
